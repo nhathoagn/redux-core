@@ -29,10 +29,10 @@ const TutorialsList = () => {
     setCurrentIndex(-1);
   };
 
-  const setActiveTutorial = (tutorial, index) => {
-    setCurrentTutorial(tutorial);
-    setCurrentIndex(index);
-  };
+  // const setActiveTutorial = (tutorial, index) => {
+  //   setCurrentTutorial(tutorial);
+  //   setCurrentIndex(index);
+  // };
 
   const removeAllTutorials = () => {
     dispatch(deleteAllTutorials())

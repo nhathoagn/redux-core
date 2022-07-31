@@ -70,7 +70,7 @@ const Tutorial = (props) => {
   const removeTutorial = () => {
     dispatch(deleteTutorial(currentTutorial.id))
       .then(() => {
-        props.history.push("/tutorials");
+        prps.history.push("/tutorials");
       })
       .catch(e => {
         console.log(e);
